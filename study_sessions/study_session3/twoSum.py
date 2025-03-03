@@ -63,6 +63,6 @@ def twoSum(nums, target):
 
 
 print(twoSum([0, 4, 3, 0], 0))
-print(twoSum([3, 4], 6))  # Output: (0, 1)
+print(twoSum([3, 4], 6)) 
 print(twoSum([3, 2, 6], 6))
-print(twoSum([0, 4, 3, 4, 0], 0))  # Output: (0, 4)
+print(twoSum([0, 4, 3, 4, 0], 0))
