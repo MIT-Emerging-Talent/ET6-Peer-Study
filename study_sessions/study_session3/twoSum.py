@@ -41,16 +41,17 @@ https://leetcode.com/problems/two-sum/?envType=study-plan-v2&envId=top-interview
 
 """
 
+
 def twoSum(nums, target):
     """
     :type nums: List[int]
     :type target: int
     :rtype: List[int]
     """
-    if len(nums) == 2:
-        return [0, 1]
+    # if len(nums) == 2:
+    #     return [0, 1]
     num_dict = {}
-    
+
     for i, num in enumerate(nums):
         diff = target - num
 
@@ -62,12 +63,6 @@ def twoSum(nums, target):
 
 
 print(twoSum([0, 4, 3, 0], 0))
-
-
-
-
-
-
-
-
-
+print(twoSum([3, 4], 6))  # Output: (0, 1)
+print(twoSum([3, 2, 6], 6))
+print(twoSum([0, 4, 3, 4, 0], 0))  # Output: (0, 4)
